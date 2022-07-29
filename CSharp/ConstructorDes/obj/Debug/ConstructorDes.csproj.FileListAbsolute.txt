@@ -1,7 +1,0 @@
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\bin\Debug\ConstructorDes.exe.config
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\bin\Debug\ConstructorDes.exe
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\bin\Debug\ConstructorDes.pdb
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\obj\Debug\ConstructorDes.csproj.AssemblyReference.cache
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\obj\Debug\ConstructorDes.csproj.CoreCompileInputs.cache
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\obj\Debug\ConstructorDes.exe
-C:\Ankit Patel\Lectures\RajBatch\CSharp\ConstructorDes\obj\Debug\ConstructorDes.pdb

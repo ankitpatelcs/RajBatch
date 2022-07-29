@@ -1,7 +1,0 @@
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\bin\Debug\SwitchCase.exe.config
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\bin\Debug\SwitchCase.exe
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\bin\Debug\SwitchCase.pdb
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\obj\Debug\SwitchCase.csproj.AssemblyReference.cache
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\obj\Debug\SwitchCase.csproj.CoreCompileInputs.cache
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\obj\Debug\SwitchCase.exe
-C:\Ankit Patel\Lectures\RajBatch\CSharp\SwitchCase\obj\Debug\SwitchCase.pdb
