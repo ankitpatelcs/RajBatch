@@ -1,0 +1,7 @@
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\bin\Debug\ExceptionHdlg.exe.config
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\bin\Debug\ExceptionHdlg.exe
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\bin\Debug\ExceptionHdlg.pdb
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\obj\Debug\ExceptionHdlg.csproj.AssemblyReference.cache
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\obj\Debug\ExceptionHdlg.csproj.CoreCompileInputs.cache
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\obj\Debug\ExceptionHdlg.exe
+C:\Ankit Patel\Lectures\RajBatch\CSharp\ExceptionHdlg\obj\Debug\ExceptionHdlg.pdb
