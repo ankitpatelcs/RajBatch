@@ -405,3 +405,5 @@ C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Deb
 C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Debug\net5.0\Razor\Areas\Users\Views\_ViewStart.cshtml.g.cs
 C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Debug\net5.0\Razor\Areas\Users\Views\Manager\Index.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\AreasAndPartialView\AreasAndPartialView\obj\Debug\net5.0\Razor\Views\Default\PartialIndex.cshtml.g.cs
