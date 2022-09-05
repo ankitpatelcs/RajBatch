@@ -26,5 +26,29 @@ namespace StateManagement.Controllers
             ViewBag.data = _contextAccessor.HttpContext.Request.Cookies["username"].ToString();
             return View();
         }
+        public IActionResult ShowMsg(string name,int id)
+        {
+            ViewBag.msg = name;
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            _contextAccessor.HttpContext.Session.SetString("uname","Raj");
+            return View();
+        }
+
+        public IActionResult svar()
+        {
+            ViewBag.msg = "Message from ViewBag";
+            ViewData["info"] = "Message from ViewData";
+            TempData["data"] = "Displaying TempData";
+            return View();
+        }
+
+        public IActionResult Second()
+        {
+            return View();
+        }
     }
 }

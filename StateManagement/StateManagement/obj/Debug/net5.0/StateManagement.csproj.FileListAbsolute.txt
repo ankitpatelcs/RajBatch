@@ -403,3 +403,7 @@ C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.
 C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\StateManagement.genruntimeconfig.cache
 C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\Cookies.cshtml.g.cs
 C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\ShowMsg.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\Login.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\svar.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\StateManagement\StateManagement\obj\Debug\net5.0\Razor\Views\Default\Second.cshtml.g.cs
