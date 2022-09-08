@@ -19,5 +19,22 @@ namespace EDMCrud.Controllers
         {
             return View(_context.Tblemployees.ToList());
         }
+        public IActionResult Details(int id)
+        {
+            return View(_context.Tblemployees.Find(id));
+        }
+
+        [HttpGet]
+        public IActionResult AddEmp()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddEmp(Tblemployee obj)
+        {
+            _context.Tblemployees.Add(obj);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
