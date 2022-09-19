@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "dtpicker";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#datepicker").datepicker({
+            dateFormat:"dd-mm-yy"
+        });
+    });
+</script>
+<h1>dtpicker</h1>
+
+<p>Date: <input type="text" id="datepicker"></p>

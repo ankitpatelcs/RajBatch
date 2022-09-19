@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script>
+    $(document).ready(function () {
+        $("#btn1").click(function () {
+            $("#txt").slideUp();
+        });
+        $("#btn2").click(function () {
+            $("#txt").slideDown();
+        });
+    });
+</script>
+
+<h1>Index</h1>
+
+<input id="btn1" type="button" value="Hide" />
+<input id="btn2" type="button" value="Show" />
+<p id="txt" class="ptag" style="width:350px">
+    Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can also download a sourcemap file for use when debugging with a compressed file. The map file is not required for users to run jQuery, it just improves the developer's debugger experience.
+</p>
