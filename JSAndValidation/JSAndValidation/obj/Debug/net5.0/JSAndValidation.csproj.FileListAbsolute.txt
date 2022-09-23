@@ -809,3 +809,4 @@ C:\Ankit Patel\Lectures\RajBatch\JSAndValidation\JSAndValidation\obj\Debug\net5.
 C:\Ankit Patel\Lectures\RajBatch\JSAndValidation\JSAndValidation\obj\Debug\net5.0\JSAndValidation.pdb
 C:\Ankit Patel\Lectures\RajBatch\JSAndValidation\JSAndValidation\obj\Debug\net5.0\JSAndValidation.genruntimeconfig.cache
 C:\Ankit Patel\Lectures\RajBatch\JSAndValidation\JSAndValidation\obj\Debug\net5.0\Razor\Views\Default\bval.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\JSAndValidation\JSAndValidation\obj\Debug\net5.0\Razor\Views\Default\dataval.cshtml.g.cs

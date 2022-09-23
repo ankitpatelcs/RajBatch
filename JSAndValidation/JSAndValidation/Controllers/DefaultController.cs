@@ -26,5 +26,9 @@ namespace JSAndValidation.Controllers
         {
             return View();
         }
+        public IActionResult dataval()
+        {
+            return View();
+        }
     }
 }
