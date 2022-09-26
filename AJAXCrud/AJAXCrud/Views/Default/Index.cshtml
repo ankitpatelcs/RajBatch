@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "/Default/GetEmployees",
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+                $.each(data, function (key, item) {
+                    $("#tbl").append("<tr>"
+                        + "<td>" + item.empId + "</td>"
+                        + "<td>" + item.fName + "</td>"
+                        + "<td>" + item.salary + "</td>"
+                        + "<td>" + item.mobile + "</td>"
+                        + "<td>" + item.email + "</td>"
+                        + "<td>" + item.gender + "</td>"
+                        + "</tr>");
+                });
+            }
+        });
+    });
+</script>
+
+<h1>Index</h1>
+
+<table class="table" id="tbl">
+    <tr>
+        <th>Employee ID</th>
+        <th>First name</th>
+        <th>Salary</th>
+        <th>Mobile</th>
+        <th>Email</th>
+        <th>Gender</th>
+    </tr>
+
+</table>
