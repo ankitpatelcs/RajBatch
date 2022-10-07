@@ -50,5 +50,35 @@ namespace ProjectDemoCore.Areas.Users.Controllers
         {
             return View();
         }
+        
+        public IActionResult Products()
+        {
+            return View(dc.Tblproducts.ToList());
+        }
+
+        public IActionResult Single(int id)
+        {
+            return View(dc.Tblproducts.Find(id));
+        }
+        
+        public string AddToCart(int id)
+        {
+            int userid = Convert.ToInt32(_httpContextAccessor.HttpContext.Session.GetString("UserId"));
+            Tblcart obj = new Tblcart();
+            obj.ProductId = id;
+            obj.Qty = 1;
+            obj.UserId = userid;
+
+            dc.Tblcarts.Add(obj);
+            dc.SaveChanges();
+
+            return "Product Added to Cart.";
+        }
+
+        public IActionResult Cart()
+        {
+            int userid = Convert.ToInt32(_httpContextAccessor.HttpContext.Session.GetString("UserId"));
+            return View(dc.Tblcarts.Where(x=>x.UserId==userid).ToList());
+        }
     }
 }

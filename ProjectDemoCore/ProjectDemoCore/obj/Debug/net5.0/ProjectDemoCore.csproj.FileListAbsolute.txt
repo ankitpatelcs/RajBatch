@@ -437,3 +437,6 @@ C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.
 C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\User_Layout.cshtml.g.cs
 C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\Default\HomePage.cshtml.g.cs
 C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\Default\Login.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\Default\Products.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\Default\Single.cshtml.g.cs
+C:\Ankit Patel\Lectures\RajBatch\ProjectDemoCore\ProjectDemoCore\obj\Debug\net5.0\Razor\Areas\Users\Views\Default\Cart.cshtml.g.cs
