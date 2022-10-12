@@ -1,0 +1,22 @@
+Code First Approach
+----------------------------
+1. Add NuGet Packages
+	a) EntityFrameworkCore.Design
+	b) EntityFrameworkCore.SqlServer
+	c) EntityFrameworkCore.Tools
+
+2. Add Models(tblemployee,tblcity)
+3. Add DbContext file
+
+4. Add Connection string in appsettings.json
+	"conn": "Data Source=DESKTOP-52IAUQR;Initial Catalog=Company;Integrated Security=True"
+
+5. Register following Service in startup.cs:-
+	services.AddDbContext<RMSContext>(opts =>
+        {
+            opts.UseSqlServer(Configuration["ConnectionStrings:conn"]);
+        });
+
+6. Open Package Manager Console and execute following CLI commands
+	a) Add-Migration -Name Initial
+	b) Update-Database

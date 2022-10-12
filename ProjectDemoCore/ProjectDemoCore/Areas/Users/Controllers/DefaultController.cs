@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProjectDemoCore.EDM;
+using ProjectDemoCore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,7 +80,52 @@ namespace ProjectDemoCore.Areas.Users.Controllers
         public IActionResult Cart()
         {
             int userid = Convert.ToInt32(_httpContextAccessor.HttpContext.Session.GetString("UserId"));
-            return View(dc.Tblcarts.Where(x=>x.UserId==userid).ToList());
+            return View(dc.Tblcarts.Include(x=>x.Product).Where(x=>x.UserId==userid).ToList());
+        }
+
+        [HttpPost]
+        public string UpdateCartQty(int id, int qty)
+        {
+            var obj = dc.Tblcarts.Find(id);
+            obj.Qty = qty;
+
+            dc.Tblcarts.Update(obj);
+            dc.SaveChanges();
+            return "Cart Qty updated.";
+        }
+
+        public IActionResult Checkout()
+        {
+            int userid = Convert.ToInt32(_httpContextAccessor.HttpContext.Session.GetString("UserId"));
+            Tblorder obj = new Tblorder();
+            obj.UserId = userid;
+            obj.Orderdate = DateTime.Now;
+            obj.Status = (byte)OrderStatusEnum.Confirmed;
+
+            dc.Tblorders.Add(obj);
+            dc.SaveChanges();
+
+            Tblorderdetail objod;
+
+            var cartdata = dc.Tblcarts.Where(x => x.UserId == userid).ToList();
+
+            foreach (var item in cartdata)
+            {
+                objod = new();
+                objod.OrderId = obj.OrderId;
+                objod.ProductId = item.ProductId;
+                objod.Qty = item.Qty;
+
+                dc.Tblorderdetails.Add(objod);
+                dc.SaveChanges();
+                objod = null;
+            }
+
+            return RedirectToAction("Success");
+        }
+        public IActionResult Success()
+        {
+            return View();
         }
     }
 }
