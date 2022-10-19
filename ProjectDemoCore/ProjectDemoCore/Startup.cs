@@ -25,7 +25,7 @@ namespace ProjectDemoCore
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {            
             services.AddControllersWithViews();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession(options=> {
@@ -63,7 +63,7 @@ namespace ProjectDemoCore
                 endpoints.MapAreaControllerRoute(
                     name: "MyAdminArea",
                     areaName: "Admin",
-                    pattern: "Admin/{controller=Master}/{action=Login}/{id?}"
+                    pattern: "Admin/{controller}/{action}/{id?}"
                 );
 
                 endpoints.MapAreaControllerRoute(
@@ -74,7 +74,8 @@ namespace ProjectDemoCore
 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Users}/{controller=Default}/{action=HomePage}/{id?}");
+
             });
         }
     }
